@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  <body>
+    <!--FIRST STAGE-->
+    <div id="loading_screen"></div>
+
+    <!--SECOND STAGE-->
+    <div id="connect" style="display:none;">
+      <!--User name + server selection-->
+      <input type="text" placeholder="Nickname" id="nickname"/>
+
+    </div>
+
+    <!--THIRD STAGE-->
+    <div id="play" style="display:none;">
+      <div id="top">
+        <div class="header">Top 10</div>
+        <div class="top_element">Name <div class="top_element_score">30000</div></div>
+        <div class="top_element">Name2 <div class="top_element_score">2000</div></div>
+        <div class="top_element">Name3 <div class="top_element_score">100</div></div>
+        <div class="top_element">Name <div class="top_element_score">30000</div></div>
+        <div class="top_element">Name2 <div class="top_element_score">2000</div></div>
+        <div class="top_element">Name3 <div class="top_element_score">100</div></div>
+        <div class="top_element">Name <div class="top_element_score">30000</div></div>
+        <div class="top_element">Name2 <div class="top_element_score">2000</div></div>
+        <div class="top_element">Name3 <div class="top_element_score">100</div></div>
+        <div class="top_element_selected">Me <div class="top_element_score">0</div></div>
+      </div>
+
+      <div id="chat">
+        <div id="messages_container"></div>
+        <div id="message_input">
+          <input type="text" placeholder="Enter message here"/>
+        </div>
+      </div>
+      <canvas id="canvas">
+        Your browser doesnt support canvas/WebGL.
+      </canvas>
+    </div>
+
+  <script src="js/require.js" data-main="/js/client/main.js">
+  </script>
+  </body>
+</html>
