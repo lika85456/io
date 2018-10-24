@@ -18,7 +18,9 @@
     "@types/socket.io-client": "^1.4.32",
     "commonjs": "0.0.1",
     "express": "^4.16.3",
+    "npm": "^6.4.1",
     "pixi.js": "^4.8.2",
+    "quadtree-lib": "^1.0.9",
     "socket.io": "^2.1.1",
     "socket.io-client": "^2.1.1"
   },
